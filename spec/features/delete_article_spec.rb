@@ -15,4 +15,4 @@ RSpec.feature "Editing an article" do
     expect(page.current_path).to eq(articles_path)
   end
 
-  end
+end
