@@ -6,11 +6,10 @@ body {
   background: #e1e1e1;
   color: #64103F;
 }
-
 // Navbar styling
 .navbar {
- background: #64103F;
- padding-bottom: 20px;
+  background: #64103F;
+  padding-bottom: 20px;
 }
 
 .navbar-default .navbar-brand {
@@ -42,9 +41,9 @@ body {
 .navbar-default .navbar-nav li > a:hover {
   color: #ff0000;
 }
-
 // Form styling
-.page-heading, div > label {
+.page-heading,
+div > label {
   color: #64103F;
 }
 
@@ -59,19 +58,15 @@ body {
   font-size: 1.5em;
   padding-left: 1.2em;
   color: #64103F;
-
 }
 
 .author {
   color: #64103F;
   padding-left: 25px;
 }
-
 // .article-title {
 //
 // }
-
-
 
 .article-detail {
   margin-top: 20px;
@@ -85,10 +80,14 @@ body {
 
 .article-show-body {
   font-size: 1.5em;
-  padding-left: 0em;
+  padding-left: 0;
   margin-top: 15px;
 }
 
 .edit-delete {
   margin-top: 20px;
+}
+// Sign up -- Sign in
+.sign-link a {
+  color: #64103F;
 }
