@@ -19,5 +19,5 @@ RSpec.describe "Articles", type: :request do
         expect(flash[:alert]).to eq flash_message
       end
     end
-  end 
+  end
 end
